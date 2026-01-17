@@ -1,3 +1,7 @@
+https://github.com/user-attachments/assets/3d44f8e6-2401-4ba0-be03-3c7941bfccbd
+
+
+
 Look, i know most people don't really care about what's happening under the hood, but i've been spending a lot of time staring at `dmesg` logs lately. there's something kind of... honest about the kernel. it doesn't pretend to be anything it isn't.
 
 anyways, here's a little thing i put together. it's called **epstein_fs** (im so funny and cool). it's a linux kernel module (tested on 6.12) that hooks `getdents64` via a kretprobe.
